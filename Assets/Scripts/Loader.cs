@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Loaader : MonoBehaviour {
+public class Loader : MonoBehaviour {
 
 	public GameObject gameManager;
 

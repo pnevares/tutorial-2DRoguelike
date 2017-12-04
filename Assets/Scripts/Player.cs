@@ -47,7 +47,7 @@ public class Player : MovingObject {
 		int horizontal = 0;
 		int vertical = 0;
 
-	#if UNITY_STANDALONE || UNITY_WEBPLAYER
+	#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
 
 		horizontal = (int)Input.GetAxisRaw ("Horizontal");
 		vertical = (int)Input.GetAxisRaw ("Vertical");
